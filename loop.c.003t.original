@@ -1,0 +1,20 @@
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int i;
+
+    int i;
+  i = 1;
+  goto <D.1796>;
+  <D.1795>:;
+  return i;
+   ++i;
+  <D.1796>:;
+  if (i <= 10) goto <D.1795>; else goto <D.1797>;
+  <D.1797>:;
+}
+return 0;
+

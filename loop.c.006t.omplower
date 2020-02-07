@@ -1,0 +1,25 @@
+
+;; Function main (main, funcdef_no=0, decl_uid=1792, cgraph_uid=0, symbol_order=0)
+
+main ()
+{
+  int D.1799;
+
+  {
+    int i;
+
+    i = 1;
+    goto <D.1796>;
+    <D.1795>:
+    D.1799 = i;
+    return D.1799;
+    i = i + 1;
+    <D.1796>:
+    if (i <= 10) goto <D.1795>; else goto <D.1797>;
+    <D.1797>:
+  }
+  D.1799 = 0;
+  return D.1799;
+}
+
+
